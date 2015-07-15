@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-PAGE_HEADER_LOCATOR = (By.ID, "page_header")
+PAGE_HEADER_LOCATOR = (By.ID, "header")
 
 
 class BasePage(object):
