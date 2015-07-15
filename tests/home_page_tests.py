@@ -9,7 +9,8 @@ class HomePageTests(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(15)
-        self.driver.get("https://www.jasminenoack.com/flallo")
+        # self.driver.get("https://www.jasminenoack.com/flallo")
+        self.driver.get("file:///Users/jasminenoack/Desktop/flallo/flallo_frontend/index.html")
 
     def test_home_page_title(self):
         home = HomePage(self.driver)
